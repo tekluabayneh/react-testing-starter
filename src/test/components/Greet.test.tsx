@@ -14,4 +14,3 @@ describe("Greet", () => {
     expect(headElement).toBeInTheDocument();
   });
 });
-ss11111111111111111111111111111111111111111111111111111
