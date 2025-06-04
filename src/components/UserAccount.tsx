@@ -5,7 +5,7 @@ const UserAccount = ({ user }: { user: User }) => {
     <>
       <h2>User Profile</h2>
       {user.isAdmin && <button>Edit</button>}
-      <div>
+      <div data-testid="user-id">
         <strong>Name:</strong> {user.name}
       </div>
     </>
